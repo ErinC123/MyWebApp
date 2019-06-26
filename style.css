@@ -10,15 +10,17 @@ nav{
   	position:fixed;
   	width:100%;
   	z-index:1;
+  	background-color: white;
 }
 
 section{
 	width:100%;
 	min-height: 100vh;
+	margin: 40px;
 }
 
 #about{
-	margin-top:50px;
+
 	position: relative;
 }
 
@@ -26,32 +28,50 @@ section{
 	position:absolute;
 	top:10%;
 	left:20%;
+}
+
+.words{
+	text-align: center;
+	padding: 30px;
+}
+
+.half-half-card{
 	border: 1px solid black;
 	width: 60%;
 	height: 70%;
 	margin:auto;
 	display: grid;
 	grid-template-columns: 50% 50%;
-	
+
 }
 
-.desc-img{
-	height: 100%;
+.the-half-card{
+	height: 95%;
+	background-color: green;
+	margin: 10px;
+}
+.myApps{
+	background-color: pink;
+}
+
+.app-unit{
+	border: 1px solid black;
+	width: 90%;
+	height: 35%;
+	margin:auto;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	padding: 50px;
+
+}
+
+.app-unit-img{
 	background-color: green;
 }
 
-.desc-words{
-	height: 100%;
+.app-unit-desc{
 	padding: 50px;
 	text-align: center;
 }
 
-#myApps{
-	background-color: yellow;
-	
-}
-
-#contact{
-	background-color: green;	
-}
 
